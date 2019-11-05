@@ -21,13 +21,12 @@ Amplify.configure({
         identityPoolId: config.cognito.IDENTITY_POOL_ID
     },
     API: {
-        endpoints: [
-            {
-                name: "notes",
-                endpoint: config.apiGateway.URL,
-                region: config.apiGateway.REGION
-            },
-        ]
+        endpoints: [{
+          name: "notes",
+          endpoint: config.apiGateway.URL,
+          region: config.apiGateway.REGION
+        },
+      ]
     }
 });
 
