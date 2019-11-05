@@ -1,4 +1,6 @@
 export default {
+    MAX_ATTACHMENT_SIZE: 5000000,
+    STRIPE_KEY: "pk_test_CCL84jqBgBlTKaiWogqKOPTk",
     s3: {
       REGION: "eu-central-1",
       BUCKET: "jolandev-notes-app-uploads"
