@@ -15,7 +15,6 @@ function App(props) {
           <Navbar.Toggle />
         </Navbar.Header>
       </Navbar>
-      <Routes />
     </div>
   );
 }
